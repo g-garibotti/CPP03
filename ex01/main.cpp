@@ -18,6 +18,10 @@ int main()
     scavTrap.takeDamage(30);
     scavTrap.beRepaired(20);
     scavTrap.guardGate();
+
+    scavTrap.takeDamage(100);
+    scavTrap.beRepaired(50);
+    scavTrap.guardGate();
     std::cout << std::endl;
     return 0;
 }
